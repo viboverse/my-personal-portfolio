@@ -63,7 +63,7 @@ export default function ProjectsPage() {
          description:
             "Modern portfolio website built with Next.js and TypeScript. Showcases my projects, skills, and contact information with responsive design and smooth animations.",
          image: "/projects/personal-portfolio.png",
-         demoUrl: "https://project-manager-app-nine.vercel.app/", // Update with your actual portfolio URL
+         demoUrl: "my-portfolio-eight-orpin-69.vercel.app/",
          githubUrl:
             "https://github.com/viboverse/my-portfolio/tree/main/my-personal-portfolio", // Update with actual portfolio repo
          techStack: [
