@@ -1,5 +1,5 @@
 import Image from "next/image";
-import vahab from "./../../public/IMG_0451.jpg";
+import mainImage from "@/../public/vibo-circle.jpg";
 import { FaDownload } from "react-icons/fa6";
 import Link from "next/link";
 
@@ -42,11 +42,11 @@ export default function HeroSection() {
             </div>
             <div className="flex justify-center md:justify-end">
                <Image
-                  src={vahab}
+                  src={mainImage}
                   width={320}
                   height={320}
                   alt="Vahab Afsharian"
-                  className="rounded-2xl shadow-2xl"
+                  className="rounded-full shadow-2xl"
                />
             </div>
          </div>
