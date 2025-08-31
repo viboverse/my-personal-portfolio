@@ -1,7 +1,7 @@
 export default function AboutMePage() {
    return (
       <section className="min-h-screen px-8 py-16">
-         <div className="mx-auto max-w-4xl">
+         <div className="mx-auto">
             <div className="space-y-12">
                {/* Header */}
                <div className="space-y-4 text-center">
@@ -16,7 +16,7 @@ export default function AboutMePage() {
                      <h2 className="mb-4 text-2xl font-medium text-white">
                         My Journey
                      </h2>
-                     <p className="leading-relaxed text-gray-300">
+                     <p className="leading-relaxed font-light text-gray-300">
                         Hi, I&apos;m an ICT student at Jamk University of
                         Applied Sciences(I go by “Vibo”) who loves building web
                         apps and learning everything I can along the way. I
@@ -26,7 +26,7 @@ export default function AboutMePage() {
                         step opened new doors, and I&apos;ve been hooked ever
                         since.
                      </p>
-                     <p className="leading-relaxed text-gray-300">
+                     <p className="leading-relaxed font-light text-gray-300">
                         What excites me most is the process of learning
                         something new and immediately putting it into practice.
                         Whether it&apos;s a new framework, a design pattern, or

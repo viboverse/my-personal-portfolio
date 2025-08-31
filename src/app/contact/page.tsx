@@ -23,8 +23,8 @@ export default function ContactPage() {
                   icon={SiGmail}
                   iconColor="text-red-400"
                   title="Email"
-                  subTitle="vahab.afsharian@gmail.com"
-                  navigateTo="mailto:vahab.afsharian@gmail.com"
+                  subTitle="vahab.afsharian94@gmail.com"
+                  navigateTo="mailto:vahab.afsharian94@gmail.com"
                />
 
                {/* LinkedIn Card */}
