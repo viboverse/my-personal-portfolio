@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align='center'>
 
-## Getting Started
+# My Personal Portfolio
 
-First, run the development server:
+![Node.js](https://img.shields.io/badge/node-v18.18.0-green?style=flat-square&logo=node.js)
+![npm](https://img.shields.io/badge/npm-v9.0.0-red?style=flat-square&logo=npm)
+![Next.js](https://img.shields.io/badge/next.js-15.4.6-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/react-19.1.0-blue?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/typescript-5.x-blue?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-4.x-cyan?style=flat-square&logo=tailwindcss)
+![Powered by](https://img.shields.io/badge/powered%20by-Vercel-black?style=flat-square&logo=vercel)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A modern, responsive personal portfolio website showcasing my frontend development skills and projects. Built with cutting-edge technologies to demonstrate clean code practices, thoughtful design, and smooth user experiences with animations and interactive elements.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+### Frontend
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15.4.6** - React framework with App Router
+- **React 19.1.0** - JavaScript library for building user interfaces
+- **TypeScript 5** - Type-safe JavaScript development
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Framer Motion 12.23.12** - Production-ready motion library for React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Development Tools
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **ESLint 9** - Code linting and formatting
+- **Prettier 3.6.2** - Code formatting
+- **React Icons 5.5.0** - Popular icon library
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🎨 Modern, responsive design
+- ⚡ Fast page loads with Next.js optimization
+- 🎭 Smooth animations with Framer Motion
+- 📱 Mobile-first responsive design
+- 🚀 Deployed on Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Installation
+
+### Prerequisites
+
+- Node.js 18.18.0 or higher
+- npm 9.0.0 or higher
+
+### Setup
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/viboverse/my-personal-portfolio.git
+   cd my-personal-portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the portfolio.
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## Deployment
+
+This portfolio is deployed on [Vercel](https://vercel.com). Any push to the main branch automatically triggers a new deployment.
+
+To deploy your own version:
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with zero configuration
+
+---
+
+**Built with ❤️ by [Vahab Afsharian](https://github.com/viboverse)**
