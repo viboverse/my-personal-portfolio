@@ -1,12 +1,12 @@
 import Image from "next/image";
-import mainImage from "@/../public/vibo-circle.jpg";
+import mainImage from "@/../public/images/vibo-fullsize.jpg";
 import { FaDownload } from "react-icons/fa6";
 import Link from "next/link";
 
 export default function HeroSection() {
    return (
-      <section className="flex min-h-screen items-center justify-between px-8 py-16">
-         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
+      <section className="flex items-center justify-between px-8 py-12">
+         <div className="mx-auto grid items-center gap-24 md:grid-cols-2">
             <div className="space-y-6">
                <div className="space-y-2">
                   <p className="text-sm tracking-wide text-purple-600 uppercase">
@@ -31,9 +31,9 @@ export default function HeroSection() {
                      Browse Projects
                   </Link>
                   <a
-                     href="/resume.pdf"
-                     download="vahab_afsharian_resume.pdf"
-                     className="flex cursor-pointer items-center gap-2 rounded-lg border border-gray-600 px-6 py-3 font-medium text-gray-300 transition-all hover:border-gray-500 hover:text-white"
+                     // href="/resume.pdf"
+                     // download="vahab_afsharian_resume.pdf"
+                     className="flex cursor-not-allowed items-center gap-2 rounded-lg border border-gray-600 px-6 py-3 font-medium text-gray-300 transition-all hover:border-gray-500 hover:text-white"
                   >
                      Download CV
                      <FaDownload className="text-sm" />
@@ -46,7 +46,8 @@ export default function HeroSection() {
                   width={320}
                   height={320}
                   alt="Vahab Afsharian"
-                  className="rounded-full shadow-2xl"
+                  className="w-full max-w-[280px] rounded-2xl shadow-2xl md:max-w-[320px]"
+                  priority
                />
             </div>
          </div>

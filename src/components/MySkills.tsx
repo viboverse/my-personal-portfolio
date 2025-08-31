@@ -8,6 +8,9 @@ import {
    SiNextdotjs,
    SiReact,
    SiTypescript,
+   SiTailwindcss,
+   SiVite,
+   SiVercel,
 } from "react-icons/si";
 
 export default function MySkills() {
@@ -15,12 +18,21 @@ export default function MySkills() {
       { name: "React", icon: <SiReact color="#61DAFB" size={48} /> },
       { name: "Next.js", icon: <SiNextdotjs color="#000000" size={48} /> },
       { name: "TypeScript", icon: <SiTypescript color="#3178C6" size={48} /> },
+      { name: "Tailwind", icon: <SiTailwindcss color="#1572B6" size={48} /> },
+      { name: "Vercel", icon: <SiVercel color="#000000" size={48} /> },
       { name: "JavaScript", icon: <SiJavascript color="#F7DF1E" size={48} /> },
+      { name: "Vite", icon: <SiVite color="#646cff" size={48} /> },
       { name: "HTML", icon: <SiHtml5 color="#E34F26" size={48} /> },
       { name: "CSS", icon: <SiCss3 color="#1572B6" size={48} /> },
    ];
 
-   const repeatedSkills = [...skills, ...skills, ...skills];
+   const repeatedSkills = [
+      ...skills,
+      ...skills,
+      ...skills,
+      ...skills,
+      ...skills,
+   ];
 
    return (
       <section className="py-16">

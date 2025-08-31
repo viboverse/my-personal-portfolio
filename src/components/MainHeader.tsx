@@ -10,7 +10,7 @@ export default function MainHeader() {
 
    return (
       <header className="border-old-gold-400/30 border-b bg-gradient-to-r from-neutral-800 to-neutral-900 shadow-lg backdrop-blur-sm">
-         <nav className="mx-auto flex h-20 max-w-6xl items-center justify-between px-8">
+         <nav className="mx-auto flex h-20 items-center justify-between px-8">
             <Link href="/" className="text-xl font-bold">
                <Image
                   src={logo}
