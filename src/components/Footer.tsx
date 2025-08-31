@@ -2,7 +2,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export default function Footer() {
    return (
-      <footer className="border-old-gold-400/30 border-t bg-neutral-900 py-8">
+      <footer className="border-old-gold-400/60 border-t bg-neutral-900 py-8">
          <div className="mx-auto max-w-6xl px-8">
             <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
                <p className="text-sm text-gray-400">

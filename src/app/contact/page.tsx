@@ -4,7 +4,7 @@ import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 
 export default function ContactPage() {
    return (
-      <section className="flex min-h-screen items-center justify-center px-8 py-16">
+      <section className="flex items-center justify-center px-8 py-16">
          <div className="mx-auto max-w-2xl space-y-12 text-center">
             {/* header */}
             <div className="space-y-4">

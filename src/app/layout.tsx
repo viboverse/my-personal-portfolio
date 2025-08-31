@@ -32,10 +32,10 @@ export default function RootLayout({
    children: React.ReactNode;
 }>) {
    return (
-      <html lang="en" className="scroll-smooth">
-         <body className={roboto.className}>
+      <html lang="en">
+         <body className={`${roboto.className} flex min-h-screen flex-col`}>
             <MainHeader />
-            {children}
+            <main className="flex-1">{children}</main>
             <Footer />
          </body>
       </html>

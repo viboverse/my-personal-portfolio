@@ -1,6 +1,6 @@
 export default function AboutMePage() {
    return (
-      <section className="min-h-screen px-8 py-16">
+      <section className="px-18 py-16">
          <div className="mx-auto">
             <div className="space-y-12">
                {/* Header */}
