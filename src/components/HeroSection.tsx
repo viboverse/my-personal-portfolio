@@ -9,17 +9,18 @@ export default function HeroSection() {
          <div className="mx-auto grid items-center gap-24 md:grid-cols-2">
             <div className="space-y-6">
                <div className="space-y-2">
-                  <p className="text-sm tracking-wide text-purple-600 uppercase">
-                     Frontend Developer
-                  </p>
                   <h1 className="text-4xl font-light text-white md:text-5xl">
-                     Vahab Afsharian
+                     Vibo (Vahab Afsharian)
                   </h1>
+                  <p className="text-sm tracking-wide text-purple-600">
+                     FRONTEND DEVELOPER | REACT • NEXT.JS • TYPESCRIPT
+                  </p>
                </div>
 
                <p className="max-w-md text-lg text-gray-300">
-                  I create modern, responsive web experiences with clean code
-                  and thoughtful design.
+                  Hi, I&apos;m Vibo — I create fast, responsive, and
+                  user-friendly applications with a focus on clean code and
+                  modern technologies.
                </p>
 
                {/* Buttons */}
@@ -28,7 +29,7 @@ export default function HeroSection() {
                      href="/projects"
                      className="cursor-pointer rounded-lg bg-purple-600 px-4 py-3 font-medium text-white transition-colors hover:bg-purple-700"
                   >
-                     Browse Projects
+                     View My Work
                   </Link>
                   <a
                      href="/cv.pdf"
