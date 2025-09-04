@@ -57,14 +57,16 @@ export default function ProjectCard({
             <div className="flex flex-wrap gap-2">
                {techStack.map((TechIcon, index) => {
                   const iconName = TechIcon.name;
-                  const color = techColors[iconName];
 
                   return (
                      <div
                         key={index}
                         className="rounded-lg bg-gray-800 p-2 transition-colors hover:bg-gray-700"
                      >
-                        <TechIcon className="text-lg" style={{ color }} />
+                        <TechIcon
+                           className="text-lg"
+                           color={techColors[iconName]}
+                        />
                      </div>
                   );
                })}
