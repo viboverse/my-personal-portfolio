@@ -33,7 +33,7 @@ export default function ProjectCard({
    techStack,
 }: ProjectCardProp) {
    return (
-      <div className="group overflow-hidden rounded-2xl border border-gray-800 bg-gray-900/50 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:transform hover:border-gray-700">
+      <div className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-800 bg-gray-900/50 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:transform hover:border-gray-700">
          {/* Image  */}
          <div className="relative h-48 overflow-hidden bg-neutral-400">
             <Image
@@ -45,11 +45,11 @@ export default function ProjectCard({
          </div>
 
          {/* Project Content */}
-         <div className="space-y-4 p-6">
+         <div className="flex flex-1 flex-col space-y-4 p-6">
             <h3 className="text-xl font-semibold text-white transition-colors group-hover:text-purple-400">
                {title}
             </h3>
-            <p className="text-sm leading-relaxed text-gray-400">
+            <p className="flex-1 text-sm leading-relaxed text-gray-400">
                {description}
             </p>
 
