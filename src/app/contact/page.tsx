@@ -1,4 +1,4 @@
-import ContactCard from "@/components/ContactCard";
+import ContactCard from "@/components/contact-card";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 
