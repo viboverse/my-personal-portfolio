@@ -12,15 +12,14 @@ export default function HeroSection() {
                   <h1 className="text-4xl font-light text-white md:text-5xl">
                      Vibo (Vahab Afsharian)
                   </h1>
-                  <p className="text-sm tracking-wide text-purple-600">
-                     FRONTEND DEVELOPER | REACT • NEXT.JS • TYPESCRIPT
+                  <p className="text-lg tracking-widest text-purple-600">
+                     Web Developer | React • Next.js • TypeScript
                   </p>
                </div>
 
                <p className="max-w-md text-lg text-gray-300">
-                  Hi, I&apos;m Vibo — I create fast, responsive, and
-                  user-friendly applications with a focus on clean code and
-                  modern technologies.
+                  I build responsive, high-performance applications with clean
+                  code and modern technologies.
                </p>
 
                {/* Buttons */}

@@ -6,7 +6,7 @@ export default function AboutMe() {
                {/* Header */}
                <div className="space-y-4 text-center">
                   <h1 className="text-4xl md:text-5xl">About me</h1>
-                  <div className="mx-auto h-0.5 w-24 bg-purple-600"></div>
+                  <div className="mx-auto h-0.5 w-40 bg-purple-600 md:w-64"></div>
                </div>
 
                {/* Content Grid */}
@@ -17,14 +17,20 @@ export default function AboutMe() {
                         My Journey
                      </h2>
                      <p className="leading-relaxed font-light text-gray-300">
-                        Hi, I&apos;m an ICT student at Jamk University of
-                        Applied Sciences(I go by “Vibo”) who loves building web
-                        apps and learning everything I can along the way. I
-                        started with simple HTML and CSS pages, then got curious
-                        about how to make them interactive—so I dived into
-                        JavaScript, React, Tailwind CSS, and TypeScript. Every
-                        step opened new doors, and I&apos;ve been hooked ever
-                        since.
+                        Hi, I&apos;m an ICT student at{" "}
+                        <a
+                           href="https://www.jamk.fi/en"
+                           target="_blank"
+                           className="text-purple-400 underline transition-colors hover:text-purple-300"
+                        >
+                           Jamk University of Applied Sciences
+                        </a>{" "}
+                        (I go by “Vibo”) who loves building web apps and
+                        learning everything I can along the way. I started with
+                        simple HTML and CSS pages, then got curious about how to
+                        make them interactive—so I dived into JavaScript, React,
+                        Tailwind CSS, and TypeScript. Every step opened new
+                        doors, and I&apos;ve been hooked ever since.
                      </p>
                      <p className="leading-relaxed font-light text-gray-300">
                         What excites me most is the process of learning
