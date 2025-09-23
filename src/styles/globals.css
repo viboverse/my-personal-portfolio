@@ -55,7 +55,10 @@
 }
 
 body {
-   background: var(--color-main-background);
+   background-image: url("../../public/background-image.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
    color: var(--color-text-primary);
    font-family: Arial, Helvetica, sans-serif;
 }
