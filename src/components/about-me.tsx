@@ -1,4 +1,4 @@
-export default function AboutMePage() {
+export default function AboutMe() {
    return (
       <section className="px-18 py-16">
          <div className="mx-auto">

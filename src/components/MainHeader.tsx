@@ -30,6 +30,7 @@ export default function MainHeader() {
                   Home
                   <span className="bg-old-gold-400 absolute bottom-0 left-0 h-0.5 w-0 transition-all duration-300 group-hover:w-full" />
                </Link>
+
                <Link
                   href="/projects"
                   className="group hover:text-old-gold-400 relative px-4 py-2 text-gray-200 transition-all duration-300"
@@ -37,13 +38,7 @@ export default function MainHeader() {
                   View My Work
                   <span className="bg-old-gold-400 absolute bottom-0 left-0 h-0.5 w-0 transition-all duration-300 group-hover:w-full" />
                </Link>
-               <Link
-                  href="/about"
-                  className="group hover:text-old-gold-400 relative px-4 py-2 text-gray-200 transition-all duration-300"
-               >
-                  About
-                  <span className="bg-old-gold-400 absolute bottom-0 left-0 h-0.5 w-0 transition-all duration-300 group-hover:w-full" />
-               </Link>
+
                <Link
                   href="/contact"
                   className="group hover:text-old-gold-400 relative px-4 py-2 text-gray-200 transition-all duration-300"
