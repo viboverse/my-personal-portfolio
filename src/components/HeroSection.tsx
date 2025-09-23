@@ -10,7 +10,8 @@ export default function HeroSection() {
             <div className="space-y-6">
                <div className="space-y-2">
                   <h1 className="text-4xl font-light text-white md:text-5xl">
-                     Vibo (Vahab Afsharian)
+                     Vibo{" "}
+                     <p className="inline text-gray-300">(Vahab Afsharian)</p>
                   </h1>
                   <p className="text-lg tracking-widest text-purple-600">
                      Web Developer | React • Next.js • TypeScript
