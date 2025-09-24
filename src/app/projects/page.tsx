@@ -77,11 +77,11 @@ export default function ProjectsPage() {
                {/* Header  */}
                <div className="space-y-4 text-center">
                   <h1 className="text-4xl md:text-5xl">My Projects</h1>
+                  <div className="mx-auto h-1 w-40 bg-purple-500 md:w-64"></div>
                   <p className="mx-auto max-w-2xl text-lg text-gray-400">
                      Here are some of the projects I&apos;ve built to sharpen my
                      skills and explore new technologies.
                   </p>
-                  <div className="mx-auto h-1 w-24 bg-purple-500"></div>
                </div>
 
                {/* Grid Content */}
