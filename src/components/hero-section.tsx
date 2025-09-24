@@ -33,7 +33,7 @@ export default function HeroSection() {
                   </Link>
                   <a
                      href="/cv.pdf"
-                     download="vahab_afsharian_resume.pdf"
+                     download="vahab-afsharian-cv.pdf"
                      className="flex cursor-pointer items-center gap-2 rounded-lg border border-gray-600 px-6 py-3 font-medium text-gray-300 transition-all hover:border-gray-500 hover:text-white"
                   >
                      Download CV
