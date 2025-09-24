@@ -1,9 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
+import { FaBars } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 import logo from "../../public/logo/Vibo-logo-transparent.png";
-import { useState } from "react";
 
 export default function MainHeader() {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,7 +63,7 @@ export default function MainHeader() {
                onClick={() => setIsMenuOpen(!isMenuOpen)}
                className="text-3xl sm:hidden"
             >
-               {isMenuOpen ? "✕" : "☰"}
+               {isMenuOpen ? <ImCross /> : <FaBars />}
             </button>
          </nav>
 
@@ -78,15 +81,15 @@ export default function MainHeader() {
                   className="block py-3"
                   onClick={() => setIsMenuOpen(false)}
                >
-                  Browse Projects
+                  View My Work
                </Link>
 
                <Link
-                  href="/about"
+                  href="/certificates"
                   className="block py-3"
                   onClick={() => setIsMenuOpen(false)}
                >
-                  About
+                  Certificates
                </Link>
 
                <Link
