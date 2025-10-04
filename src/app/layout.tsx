@@ -32,7 +32,7 @@ export default function RootLayout({
    children: React.ReactNode;
 }>) {
    return (
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
          <body className={`${roboto.className} flex min-h-screen flex-col`}>
             <MainHeader />
             <main className="flex-1 bg-black/70 backdrop-blur-lg">
