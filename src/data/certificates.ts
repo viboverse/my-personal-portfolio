@@ -71,4 +71,13 @@ export const CERTIFICATES = [
 
       issueDate: "October 2025",
    },
+   {
+      id: 9,
+      title: "The Last Algorithms Course You'll Need",
+      imageUrl: "/certificates/algorithms.jpg",
+      issuer: "Frontend Masters",
+      issuerUrl: "https://frontendmasters.com/",
+
+      issueDate: "November 2025",
+   },
 ];
