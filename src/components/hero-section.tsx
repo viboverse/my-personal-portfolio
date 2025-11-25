@@ -14,7 +14,7 @@ export default function HeroSection() {
                      <p className="inline text-gray-300">(Vahab Afsharian)</p>
                   </h1>
                   <p className="text-lg tracking-widest text-purple-600">
-                     Web Developer | React • Next.js • TypeScript
+                     Full-stack Developer | React • Next.js • TypeScript
                   </p>
                </div>
 
@@ -24,23 +24,31 @@ export default function HeroSection() {
                </p>
 
                {/* Buttons */}
-               <div className="flex gap-4 pt-4">
+               <div className="grid max-w-md grid-cols-1 gap-4 pt-4 sm:grid-cols-2">
                   <Link
                      href="/projects"
-                     className="cursor-pointer rounded-lg bg-purple-600 px-4 py-3 font-medium text-white transition-colors hover:bg-purple-700"
+                     className="cursor-pointer rounded-lg bg-purple-600 px-4 py-3 text-center font-medium text-white transition-colors hover:bg-purple-700"
                   >
                      View My Work
                   </Link>
                   <a
                      href="/vahab-cv.pdf"
                      download="vahab-afsharian-cv.pdf"
-                     className="flex cursor-pointer items-center gap-2 rounded-lg border border-gray-600 px-6 py-3 font-medium text-gray-300 transition-all hover:border-gray-500 hover:text-white"
+                     className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-gray-600 px-6 py-3 font-medium text-gray-300 transition-all hover:border-gray-500 hover:text-white"
                   >
                      Download CV
                      <FaDownload className="text-sm" />
                   </a>
+                  <Link
+                     className="bg-old-gold-700 hover:bg-old-gold-800 cursor-pointer rounded-lg px-4 py-3 text-center font-medium text-white transition-colors sm:col-span-2"
+                     href="/certificates"
+                  >
+                     Certificates
+                  </Link>
                </div>
             </div>
+
+            {/* Image */}
             <div className="flex justify-center md:justify-end">
                <Image
                   src={mainImage}
