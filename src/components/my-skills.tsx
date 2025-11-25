@@ -26,13 +26,7 @@ export default function MySkills() {
       { name: "CSS", icon: <SiCss3 color="#1572B6" size={48} /> },
    ];
 
-   const repeatedSkills = [
-      ...skills,
-      ...skills,
-      ...skills,
-      ...skills,
-      ...skills,
-   ];
+   const repeatedSkills = [...skills, ...skills];
 
    return (
       <section className="py-16">
