@@ -7,7 +7,6 @@ export default function VisitorTracker() {
       const hasNotified = sessionStorage.getItem("n8n_visitor_notified");
 
       if (!hasNotified) {
-         // 2. Replace with your ACTUAL n8n Production URL
          const N8N_WEBHOOK_URL =
             "https://lazybee.app.n8n.cloud/webhook/portfolio-visit";
 
@@ -23,7 +22,6 @@ export default function VisitorTracker() {
             }),
          }).catch((err) => console.error("Tracking error:", err));
 
-         // 3. Mark as notified so we don't spam on refresh
          sessionStorage.setItem("n8n_visitor_notified", "true");
       }
    }, []);
