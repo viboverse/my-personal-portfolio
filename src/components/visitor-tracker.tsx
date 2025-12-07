@@ -9,7 +9,7 @@ export default function VisitorTracker() {
       if (!hasNotified) {
          // 2. Replace with your ACTUAL n8n Production URL
          const N8N_WEBHOOK_URL =
-            "https://lazybee.app.n8n.cloud/webhook-test/portfolio-visit";
+            "https://lazybee.app.n8n.cloud/webhook/portfolio-visit";
 
          fetch(N8N_WEBHOOK_URL, {
             method: "POST",
