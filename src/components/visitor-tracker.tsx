@@ -16,8 +16,10 @@ export default function VisitorTracker() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
                timestamp: new Date().toISOString(),
-               page: "Home",
+               page: window.location.pathname,
                screen: `${window.innerWidth}x${window.innerHeight}`,
+               device: window.innerWidth < 768 ? "Mobile" : "Desktop",
+               referrer: document.referrer || "Direct",
             }),
          }).catch((err) => console.error("Tracking error:", err));
 
