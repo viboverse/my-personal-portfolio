@@ -41,7 +41,7 @@ export default function MySkills() {
                className="flex items-center py-8"
                animate={{ x: [0, -1200] }}
                transition={{
-                  duration: 30,
+                  duration: 20,
                   repeat: Infinity,
                   ease: "linear",
                }}
@@ -49,7 +49,7 @@ export default function MySkills() {
                {repeatedSkills.map((skill, index) => (
                   <div
                      key={index}
-                     className="mx-8 flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 px-6 py-4 transition-all duration-300 hover:bg-white/10"
+                     className="mx-8 flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 px-6 py-4 transition-all duration-200 hover:bg-white/10"
                   >
                      {skill.icon}
                      <span className="font-medium whitespace-nowrap text-gray-200">
