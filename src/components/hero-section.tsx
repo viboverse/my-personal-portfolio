@@ -40,7 +40,7 @@ export default function HeroSection() {
                      <FaDownload className="text-sm" />
                   </a>
                   <Link
-                     className="bg-old-gold-700 hover:bg-old-gold-800 cursor-pointer rounded-lg px-4 py-3 text-center font-medium text-white transition-colors sm:col-span-2"
+                     className="cursor-pointer rounded-lg bg-purple-600 px-4 py-3 text-center font-medium text-white transition-colors hover:bg-purple-700 sm:col-span-2"
                      href="/certificates"
                   >
                      Certificates
