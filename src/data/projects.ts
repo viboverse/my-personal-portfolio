@@ -9,26 +9,11 @@ import {
    SiVite,
    SiNextdotjs,
    SiPrisma,
+   SiPostgresql,
+   SiClerk,
 } from "react-icons/si";
 
 export const PROJECTS_DATA = [
-   {
-      id: 6,
-      title: "Sleep Tracker",
-      description:
-         "A modern, full-stack sleep tracking application built with Next.js, React, and TypeScript. Track your sleep patterns, analyze trends, and improve your rest quality with an intuitive interface",
-      image: "/projects/sleep-tracker.png",
-      demoUrl: "https://next-sleep-tracker-omega.vercel.app/",
-      githubUrl: "https://github.com/viboverse/next-sleep-tracker", //
-      techStack: [
-         SiNextdotjs,
-         SiReact,
-         SiTypescript,
-         SiTailwindcss,
-         SiVercel,
-         SiPrisma,
-      ],
-   },
    {
       id: 3,
       title: "Weather App",
@@ -59,7 +44,6 @@ export const PROJECTS_DATA = [
       githubUrl: "https://github.com/viboverse/tic-tac-toe-game-app",
       techStack: [SiReact, SiTypescript, SiHtml5, SiCss3, SiVite, SiVercel],
    },
-
    {
       id: 4,
       title: "Project Manager",
@@ -81,3 +65,42 @@ export const PROJECTS_DATA = [
       techStack: [SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiVercel],
    },
 ];
+
+export const FEATURED_PROJECT = {
+   id: 0,
+   title: "Linear Kanban",
+   description:
+      "This is my most ambitious project so far and the one I’m most proud of. I built a full-stack application using Next.js, React, and a serverless PostgreSQL database to challenge myself and create a fast, real-time productivity tool.",
+   image: "/projects/linear-kanban.png",
+   demoUrl: "",
+   githubUrl: "https://github.com/viboverse/linear-kanban",
+   techStack: [
+      SiNextdotjs,
+      SiReact,
+      SiTypescript,
+      SiTailwindcss,
+      SiPrisma,
+      SiPostgresql,
+      SiClerk,
+   ],
+   comingSoon: true,
+};
+
+// Highlighted Second-Best Project
+export const HIGHLIGHTED_PROJECT = {
+   id: 6,
+   title: "Sleep Tracker",
+   description:
+      "A modern, full-stack sleep tracking application built with Next.js, React, and TypeScript. Track your sleep patterns, analyze trends, and improve your rest quality with an intuitive interface and beautiful visualizations.",
+   image: "/projects/sleep-tracker.png",
+   demoUrl: "https://next-sleep-tracker-omega.vercel.app/",
+   githubUrl: "https://github.com/viboverse/next-sleep-tracker",
+   techStack: [
+      SiNextdotjs,
+      SiReact,
+      SiTypescript,
+      SiTailwindcss,
+      SiVercel,
+      SiPrisma,
+   ],
+};

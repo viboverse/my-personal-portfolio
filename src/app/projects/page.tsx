@@ -1,5 +1,11 @@
+import FeaturedProjectCard from "@/components/featured-project-card";
+import HighlightedProjectCard from "@/components/highlighted-project-card";
 import ProjectCard from "@/components/project-card";
-import { PROJECTS_DATA as projects } from "@/data/projects";
+import {
+   FEATURED_PROJECT,
+   HIGHLIGHTED_PROJECT,
+   PROJECTS_DATA,
+} from "@/data/projects";
 
 export default function ProjectsPage() {
    return (
@@ -16,9 +22,37 @@ export default function ProjectsPage() {
                   <div className="mx-auto h-1 w-24 bg-purple-500"></div>
                </div>
 
+               {/* Featured Project - Linear Kanban */}
+               <FeaturedProjectCard
+                  title={FEATURED_PROJECT.title}
+                  description={FEATURED_PROJECT.description}
+                  image={FEATURED_PROJECT.image}
+                  githubUrl={FEATURED_PROJECT.githubUrl}
+                  techStack={FEATURED_PROJECT.techStack}
+               />
+
+               {/* Highlighted Project - Sleep Tracker */}
+               <HighlightedProjectCard
+                  title={HIGHLIGHTED_PROJECT.title}
+                  description={HIGHLIGHTED_PROJECT.description}
+                  image={HIGHLIGHTED_PROJECT.image}
+                  demoUrl={HIGHLIGHTED_PROJECT.demoUrl}
+                  githubUrl={HIGHLIGHTED_PROJECT.githubUrl}
+                  techStack={HIGHLIGHTED_PROJECT.techStack}
+               />
+
+               {/* Other Projects Label */}
+               <div className="flex items-center gap-4">
+                  <div className="h-px flex-1 bg-gray-700" />
+                  <span className="text-sm font-medium tracking-wider text-gray-500 uppercase">
+                     Other Projects
+                  </span>
+                  <div className="h-px flex-1 bg-gray-700" />
+               </div>
+
                {/* Grid Content */}
                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                  {projects.map((project) => (
+                  {PROJECTS_DATA.map((project) => (
                      <ProjectCard
                         key={project.id}
                         image={project.image}
