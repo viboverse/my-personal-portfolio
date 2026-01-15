@@ -14,10 +14,11 @@ export default function AboutMe() {
                   {/* Left Colomns */}
                   <div className="space-y-6">
                      <h2 className="mb-4 text-2xl font-medium text-white">
-                        My Journey
+                        About Me
                      </h2>
                      <p className="leading-relaxed font-light text-gray-300">
-                        Hi, I&apos;m an ICT student at{" "}
+                        Hello, I&apos;m Vahab Afsharian (or Vibo), an ICT
+                        student at{" "}
                         <a
                            href="https://www.jamk.fi/en"
                            target="_blank"
@@ -25,22 +26,37 @@ export default function AboutMe() {
                         >
                            Jamk University of Applied Sciences
                         </a>{" "}
-                        (I go by “Vibo”) who loves building web apps and
-                        learning everything I can along the way. I started with
-                        simple HTML and CSS pages, then got curious about how to
-                        make them interactive—so I dived into JavaScript, React,
-                        Tailwind CSS, and TypeScript. Every step opened new
-                        doors, and I&apos;ve been hooked ever since.
+                        with a passion for building modern web applications.
                      </p>
                      <p className="leading-relaxed font-light text-gray-300">
-                        What excites me most is the process of learning
-                        something new and immediately putting it into practice.
-                        Whether it&apos;s a new framework, a design pattern, or
-                        a small coding trick, I enjoy experimenting and finding
-                        better ways to solve problems. For me, coding isn&apos;t
-                        just about getting something to work—it&apos;s about
-                        improving it, refining it, and making the experience
-                        smoother for the user.
+                        My journey into development began with a curiosity to
+                        make websites interactive. This led me deep into the
+                        JavaScript ecosystem, where I now build user interfaces
+                        with{" "}
+                        <strong className="font-normal text-gray-100">
+                           React, Next.js, and TypeScript
+                        </strong>
+                        , using{" "}
+                        <strong className="font-normal text-gray-100">
+                           Tailwind CSS
+                        </strong>{" "}
+                        for styling. To understand the full picture, I&apos;ve
+                        also explored backend technologies like{" "}
+                        <strong className="font-normal text-gray-100">
+                           Node.js, PostgreSQL, and Prisma
+                        </strong>
+                        , giving me insight into the entire development
+                        lifecycle.
+                     </p>
+                     <p className="leading-relaxed font-light text-gray-300">
+                        What truly drives me is the cycle of learning and
+                        applying. I am constantly exploring new frameworks and
+                        tools on platforms like Frontend Masters to find better
+                        ways to solve problems. For me, development isn&apos;t
+                        just about writing code—it&apos;s about building robust,
+                        user-friendly applications from concept to deployment. I
+                        am now eager to take my skills beyond personal projects
+                        and contribute to a professional engineering team.
                      </p>
                   </div>
 
